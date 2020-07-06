@@ -1,3 +1,38 @@
 body {
   display: grid;
+  gap: 1rem;
+  grid-template-columns: auto;
+}
+.navbar{
+  grid-column: 1;
+}
+.nav-items{
+
+}
+.content {
+  grid-column: 2 / 3;
+  white-space: nowrap;
+}
+.content iframe{
+  width: 100%;
+  heigth: 100%;
+  overflow: hidden;
+}
+.sidebar{
+  grid-column: 3;
+}
+/* *{
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+} */
+.navbar, .content, .sidebar{
+  grid-row-start: 2 ;
+  align-self: stretch;
+  height: 800px;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+  margin-left: -40px;
 }
