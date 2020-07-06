@@ -4,13 +4,15 @@ body {
   grid-template-columns: auto;
 }
 .navbar{
-  grid-column: 1;
+  grid-row: 1;
+  display: inline-grid;
+  align-items: center;
 }
-.nav-items{
+/* .nav-items{
 
-}
+} */
 .content {
-  grid-column: 2 / 3;
+  grid-column: 1 / 3;
   white-space: nowrap;
 }
 .content iframe{
@@ -26,13 +28,13 @@ body {
   border-color: black;
   border-width: medium;
 } */
-.navbar, .content, .sidebar{
+.content, .sidebar{
   grid-row-start: 2 ;
   align-self: stretch;
-  height: 800px;
+  /* height: 800px; */
 }
 li{
   list-style: none;
   cursor: pointer;
-  margin-left: -40px;
+  /* margin-left: -40px; */
 }
