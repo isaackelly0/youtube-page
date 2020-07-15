@@ -8,6 +8,9 @@ body {
   display: inline-grid;
   align-items: center;
 }
+.navbar li{
+  display: inline-grid;
+}
 /* .nav-items{
 
 } */
@@ -37,4 +40,8 @@ li{
   list-style: none;
   cursor: pointer;
   /* margin-left: -40px; */
+}
+img {
+  width: 30px;
+  height: 30px;
 }
